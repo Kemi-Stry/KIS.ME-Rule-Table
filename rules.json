@@ -1,0 +1,29 @@
+{
+  "rules": [
+    {
+      "id": "0",
+      "condition": { "color": "red", "rel": true },
+      "action": "blue"
+    },
+    {
+      "id": "1",
+      "condition": { "color": "blue", "rel": true },
+      "action": "green"
+    },
+    {
+      "id": "2",
+      "condition": { "color": "green", "rel": true },
+      "action": "yellow"
+    },
+    {
+      "id": "3",
+      "condition": { "color": "yellow", "rel": true },
+      "action": "magenta"
+    },
+    {
+      "id": "4",
+      "condition": { "color": "magenta", "rel": true },
+      "action": "red"
+    }
+  ]
+}
